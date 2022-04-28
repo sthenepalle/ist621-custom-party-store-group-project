@@ -1,0 +1,43 @@
+{
+  "name": "my-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@fortawesome/fontawesome": "^1.1.8",
+    "@fortawesome/fontawesome-free-regular": "^5.0.13",
+    "@fortawesome/fontawesome-free-solid": "^5.0.13",
+    "@fortawesome/react-fontawesome": "^0.1.3",
+    "@material-ui/core": "^3.3.2",
+    "@material-ui/icons": "^3.0.1",
+    "@material-ui/lab": "^3.0.0-alpha.23",
+    "@material/tab-bar": "^0.40.1",
+    "@trendmicro/react-sidenav": "^0.4.5",
+    "font-awesome": "^4.7.0",
+    "font-picker-react": "^2.1.0",
+    "html2canvas": "^1.0.0-alpha.12",
+    "react": "^16.6.0",
+    "react-color": "^2.14.1",
+    "react-dom": "^16.6.0",
+    "react-draggable": "^3.0.5",
+    "react-fabricjs": "^0.1.6",
+    "react-font-picker": "^1.1.8",
+    "react-images-upload": "^1.2.3",
+    "react-router-dom": "^4.3.1",
+    "react-scripts": "2.0.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build && copy build\\index.html ..\\resources\\templates\\ && copy build\\static\\css  ..\\resources\\static\\static\\css && copy build\\static\\js  ..\\resources\\static\\static\\js && copy build\\static\\media  ..\\resources\\static\\static\\media && copy build\\img ..\\resources\\static\\img && copy build\\img\\images ..\\resources\\static\\img\\images",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ]
+}
